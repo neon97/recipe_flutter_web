@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'icondetails.dart';
 
 class Latestrecipe extends StatelessWidget {
   @override
@@ -86,12 +89,48 @@ class Latestrecipe extends StatelessWidget {
                       )),
                 ),
                 Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 25.0),
+                    padding: EdgeInsets.only(top: 30.0, bottom: 15.0),
                     child: Text(
                       "Brain Power Blueberry Smoothie",
                       style: GoogleFonts.josefinSans(
                           fontSize: 28.0, fontWeight: FontWeight.bold),
-                    ))
+                    )),
+                Row(
+                  children: [
+                    Text("BEVERAGES / SWEET",
+                        style: GoogleFonts.montserrat(
+                            color: Colors.greenAccent[700],
+                            fontSize: 13.0,
+                            fontWeight: FontWeight.w500)),
+                    SizedBox(
+                      width: 8.0,
+                    ),
+                    iconContent(FontAwesome.comment, "4", 15, 13, Colors.black)
+                  ],
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 20.0),
+                  child: Text(
+                    "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+                    style: GoogleFonts.raleway(height: 1.5),
+                  ),
+                ),
+                Container(
+                  alignment: Alignment.center,
+                  width: 85.0,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("READ MORE",
+                          style: GoogleFonts.montserrat(
+                            fontSize: 13.0,
+                          )),
+                      Divider(
+                        color: Colors.black,
+                      )
+                    ],
+                  ),
+                ),
               ],
             ),
           ),

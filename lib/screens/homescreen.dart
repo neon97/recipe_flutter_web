@@ -3,7 +3,7 @@ import 'package:recipe_web/model/recipePage.dart';
 import 'package:recipe_web/widgets/header/branding.dart';
 import 'package:recipe_web/widgets/header/cuisine_face.dart';
 import 'package:recipe_web/widgets/header/header.dart';
-import 'package:recipe_web/widgets/header/latestTrecipe.dart';
+import 'package:recipe_web/widgets/header/latestRecipe.dart';
 import 'package:recipe_web/widgets/header/popularCui.dart';
 import 'package:recipe_web/widgets/header/topcuisines.dart';
 
@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 40.0,
               ),
-              
+
 //cuisine avatar
               circleCuisineFace(width),
               SizedBox(
@@ -57,8 +57,7 @@ class HomeScreen extends StatelessWidget {
               ),
 
 //latest recipe
-Latestrecipe()
-
+              Latestrecipe()
             ],
           ),
         ),
