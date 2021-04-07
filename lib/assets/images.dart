@@ -129,3 +129,34 @@ List avatarCuisine = [
     "name": "VEGAN"
   },
 ];
+
+List latestRecipes = [
+  {
+    "image":"https://images.unsplash.com/photo-1603803721487-97009eb7f8db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fGZydWl0JTIwanVpY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "title":"Brain Power Blueberry Smoothie",
+    "subtitle":"BEVERAGES / SWEET",
+    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "comments":"4"
+  },
+  {
+    "image":"https://images.unsplash.com/photo-1609016617751-e80552ae6ec2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8cm9zZSUyMHRlYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+    "title":"Rose Syrup Ice Tea",
+    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "subtitle":"BEVERAGES",
+    "comments":"7"
+  },
+  {
+    "image":"https://images.unsplash.com/photo-1513135237078-98427911d825?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVhdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+    "title":"The Best Spaghetti Meat Sauce",
+    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "subtitle":"NON-VEG",
+    "comments":"6"
+  },
+  {
+    "image":"https://images.unsplash.com/photo-1611712142269-12b7433e28e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+    "title":"Pickled Summer Vegetables",
+    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "subtitle":"VEG",
+    "comments":"4"
+  }
+];
