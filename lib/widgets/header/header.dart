@@ -3,7 +3,9 @@ import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:recipe_web/model/recipePage.dart';
 // ignore: avoid_web_libraries_in_flutter
-import 'dart:js' as js;     //can create issue bcause this is web plugin
+
+
+import '../socialIcons.dart';     //can create issue bcause this is web plugin
 
 class BlackHeader extends StatelessWidget {
   final List<RecipePage> recipePage;
@@ -56,18 +58,5 @@ class BlackHeader extends StatelessWidget {
     );
   }
 
-  Widget icons(IconData _iconer, String _open) {
-    return Padding(
-      padding: const EdgeInsets.only(right: 5.0),
-      child: IconButton(
-          icon: Icon(
-            _iconer,
-            size: 15.0,
-            color: Colors.white70,
-          ),
-          onPressed: () {
-            js.context.callMethod('open', ['https://$_open.com']);  //can create issue bcause this is web plugin
-          }),
-    );
-  }
+
 }
