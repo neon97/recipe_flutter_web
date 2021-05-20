@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // ignore: avoid_web_libraries_in_flutter
-import 'dart:js' as js;
+// import 'dart:js' as js;
 
 Widget icons(IconData _iconer, String _open, [Color colore]) {
   return IconButton(
@@ -10,8 +10,8 @@ Widget icons(IconData _iconer, String _open, [Color colore]) {
         color: colore == null ? Colors.white70 : colore,
       ),
       onPressed: () {
-        js.context.callMethod('open', [
-          'https://$_open.com'
-        ]); //can create issue bcause this is web plugin
+        // js.context.callMethod('open', [
+        //   'https://$_open.com'
+        // ]); //can create issue bcause this is web plugin
       });
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe_web/model/recipePage.dart';
+import 'package:recipe_web/widgets/footer/footerSection.dart';
 import 'package:recipe_web/widgets/header/branding.dart';
 import 'package:recipe_web/widgets/header/cuisine_face.dart';
 import 'package:recipe_web/widgets/header/header.dart';
@@ -57,7 +58,10 @@ class HomeScreen extends StatelessWidget {
               ),
 
 //latest recipe
-              Latestrecipe()
+              Latestrecipe(),
+
+//footer work
+              FooterPart()
             ],
           ),
         ),

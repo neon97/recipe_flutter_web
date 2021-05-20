@@ -139,7 +139,8 @@ class Latestrecipe extends StatelessWidget {
               ),
           ],
         ),
-        buttonSelection("LOAD MORE POSTS", Colors.black)
+        // buttonSelection("LOAD MORE POSTS", Colors.black)
+        //removing as no need trying to make the webpage as small as possible
       ],
     );
   }
