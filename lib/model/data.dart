@@ -4,4 +4,7 @@ List<RecipePage> recipePagesList = [
   RecipePage(pagename: 'about'),
   RecipePage(pagename: 'contactus'),
   RecipePage(pagename: 'newsletter'),
+  RecipePage(pagename: 'imprint'),
+  RecipePage(pagename: 'privacy_policy'),
+
 ];

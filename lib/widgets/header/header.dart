@@ -4,8 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:recipe_web/model/recipePage.dart';
 // ignore: avoid_web_libraries_in_flutter
 
-
-import '../socialIcons.dart';     //can create issue bcause this is web plugin
+import '../socialIcons.dart'; //can create issue bcause this is web plugin
 
 class BlackHeader extends StatelessWidget {
   final List<RecipePage> recipePage;
@@ -51,12 +50,9 @@ class BlackHeader extends StatelessWidget {
       child: GestureDetector(
           child: Text(
             _data,
-            style:
-                GoogleFonts.nunitoSans(fontSize: 12.5, color: Colors.white70),
+            style: GoogleFonts.nunitoSans(fontSize: 12.5, color: Colors.white),
           ),
           onTap: () => onTapped(recipePage[index])),
     );
   }
-
-
 }

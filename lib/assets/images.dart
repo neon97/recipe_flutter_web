@@ -132,31 +132,49 @@ List avatarCuisine = [
 
 List latestRecipes = [
   {
-    "image":"https://images.unsplash.com/photo-1603803721487-97009eb7f8db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fGZydWl0JTIwanVpY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "title":"Brain Power Blueberry Smoothie",
-    "subtitle":"BEVERAGES / SWEET",
-    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
-    "comments":"4"
+    "image":
+        "https://images.unsplash.com/photo-1603803721487-97009eb7f8db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fGZydWl0JTIwanVpY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "title": "Brain Power Blueberry Smoothie",
+    "subtitle": "BEVERAGES / SWEET",
+    "data":
+        "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "comments": "4"
   },
   {
-    "image":"https://images.unsplash.com/photo-1609016617751-e80552ae6ec2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8cm9zZSUyMHRlYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-    "title":"Rose Syrup Ice Tea",
-    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
-    "subtitle":"BEVERAGES",
-    "comments":"7"
+    "image":
+        "https://images.unsplash.com/photo-1609016617751-e80552ae6ec2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8cm9zZSUyMHRlYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+    "title": "Rose Syrup Ice Tea",
+    "data":
+        "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "subtitle": "BEVERAGES",
+    "comments": "7"
   },
   {
-    "image":"https://images.unsplash.com/photo-1513135237078-98427911d825?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVhdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-    "title":"The Best Spaghetti Meat Sauce",
-    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
-    "subtitle":"NON-VEG",
-    "comments":"6"
+    "image":
+        "https://images.unsplash.com/photo-1513135237078-98427911d825?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8bWVhdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+    "title": "The Best Spaghetti Meat Sauce",
+    "data":
+        "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "subtitle": "NON-VEG",
+    "comments": "6"
   },
   {
-    "image":"https://images.unsplash.com/photo-1611712142269-12b7433e28e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
-    "title":"Pickled Summer Vegetables",
-    "data":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
-    "subtitle":"VEG",
-    "comments":"4"
+    "image":
+        "https://images.unsplash.com/photo-1611712142269-12b7433e28e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+    "title": "Pickled Summer Vegetables",
+    "data":
+        "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus …",
+    "subtitle": "VEG",
+    "comments": "4"
   }
+];
+
+List footerImages = [
+  "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+  "https://images.unsplash.com/photo-1540660290370-8aa90e451e8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+  "https://images.unsplash.com/photo-1536489885071-87983c3e2859?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+  "https://images.unsplash.com/photo-1563865436874-9aef32095fad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+  "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=653&q=80",
+  "https://images.unsplash.com/photo-1563865618882-d30d6f49917d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80",
+  // "https://images.unsplash.com/photo-1556761223-4c4282c73f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80"
 ];

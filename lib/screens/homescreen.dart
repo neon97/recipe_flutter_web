@@ -61,7 +61,10 @@ class HomeScreen extends StatelessWidget {
               Latestrecipe(),
 
 //footer work
-              FooterPart()
+              FooterPart(
+                  onTapped: onTapped,
+                      recipePage: recipePage,
+              )
             ],
           ),
         ),

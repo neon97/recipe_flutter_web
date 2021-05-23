@@ -7,7 +7,7 @@ Widget icons(IconData _iconer, String _open, [Color colore]) {
       icon: Icon(
         _iconer,
         size: 15.0,
-        color: colore == null ? Colors.white70 : colore,
+        color: colore == null ? Colors.white : colore,
       ),
       onPressed: () {
         // js.context.callMethod('open', [
